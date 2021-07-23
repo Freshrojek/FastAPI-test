@@ -2,7 +2,6 @@ services:
 
   backend:
     build: ./
-#    image: freshrojek/fastapi-test
     restart: always
     ports:
       - "80:80"
