@@ -1,6 +1,6 @@
 # FastAPI-test
 
-### To setup docker
+### To setup Docker
 You can either create a repo on docker hub or create one using `docker create *repo name*`
  - `docker login`, then enter your credentials
  - `docker build -t *docker username*/*container name*:*tagname* .`, for example mine is `docker build -t freshrojek/fastdockerexample:latest .`
