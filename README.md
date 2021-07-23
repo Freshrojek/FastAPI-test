@@ -9,7 +9,7 @@ You can either create a repo on docker hub or create one using `docker create *r
  
 ### To set up Elastic Beanstalk
 it will ask you to provide security access keys from your EB application, make sure you're in the right location in the top right of the application console.
-- `eb init -p docker *eb environment name*` in the root folder
+- `eb init -p docker *application name*` in the root folder
 - `eb create *environment name*` to start environment
 - `eb open`  to open the started environment
 
