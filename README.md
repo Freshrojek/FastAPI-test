@@ -8,6 +8,7 @@ You can either create a repo on docker hub or create one using `docker create *r
  - `docker-compose up` to run the docker container locally, which you can then go to `localhost:80`.
  
 ### To set up Elastic Beanstalk
+it will ask you to provide security access keys from your EB application, make sure you're in the right location in the top right of the application console.
 - `eb init -p docker *eb environment name*` in the root folder
 - `eb create *environment name*` to start environment
 - `eb open`  to open the started environment
