@@ -11,7 +11,6 @@ You can either create a repo on docker hub or create one using `docker create *r
 - `eb init -p docker *eb environment name*` in the root folder
 - `eb create *environment name*` to start environment
 - `eb open`  to open the started environment
-- 
 
 ### To test locally with Elastic Beanstalk
 - `eb local run --port 80` to run the environment locally
